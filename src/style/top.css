@@ -1,0 +1,32 @@
+.top-container {
+  display: flex;
+  gap: 4rem;
+  background-color: #f5f5f5;
+}
+.display-mail{
+  margin-left: 150px;
+}
+
+.facebook-top, .twitter-top, .indin-top  {
+  width: 25px;
+  height: 30px;
+  margin-top: 10px;
+}
+  
+ .icon-container {
+   margin-left: 80px;
+   display: flex;
+ }
+ .icon-container > *{
+   margin-left: 10px;
+ }
+ 
+.login-top{
+  height: 30px;
+  margin-top: 10px;
+}
+.login-container{
+  margin-left: 440px;
+  display: flex;
+
+}

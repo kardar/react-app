@@ -1,0 +1,27 @@
+ 
+ 
+.header-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 10%;
+}
+.nav-element{
+    list-style: none;
+}
+.nav-element li {
+    display: inline-block;
+    padding: 0 40px;
+}
+.cart-icon{
+    height: 30px;
+    width: 30px;
+}
+.nav-element li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav-element li a:hover{
+     color: green;
+}
