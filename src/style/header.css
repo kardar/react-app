@@ -12,6 +12,7 @@
 .nav-element li {
     display: inline-block;
     padding: 0 40px;
+    
 }
 .cart-icon{
     height: 30px;
@@ -20,6 +21,7 @@
 .nav-element li a{
     transition: all 0.3s ease 0s;
     text-decoration: none;
+    color:#7fad39 ;
 }
 
 .nav-element li a:hover{
