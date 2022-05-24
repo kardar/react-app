@@ -9,7 +9,7 @@ const Top = () => {
   return (
     <div className="top-container">
       <h4 className="display-mail">User@gmail.com</h4>
-
+      <div className="top-line"></div>
       <h4 className="free-shipping"> Free shipping for all Order of $99</h4>
         
       <div className="icon-container">
