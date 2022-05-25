@@ -1,9 +1,11 @@
 import React from "react";
 import '../style/leftNavBar.css';
+import hero from  '../resources/banner.jpg';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const LeftNavBar = () => {
   return (
+    <div>
     <div className="leftNav-container">
      <div className="dropdown">
        <button className="dropbtn">CatogriesCatogries    </button>
@@ -18,6 +20,8 @@ const LeftNavBar = () => {
       <input className="search-bar" type="text" placeholder="What do you need?"></input>
       <button className="search-btn" type="submit">Search</button>
       </div>
+    </div>
+    <img className="hero-img" src={hero}></img>
     </div>
   );
 };
